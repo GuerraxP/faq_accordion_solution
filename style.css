@@ -1,0 +1,157 @@
+*{
+  box-sizing:  border-box;
+  margin:0;
+  padding: 0;
+  font-family: "WorkSans-IVW";
+}
+
+:root {
+--White: hsl(0, 0%, 100%);
+--Light-pink: hsl(275, 100%, 97%);
+--Grayish-purple: hsl(292, 16%, 49%);
+--Dark-purple: hsl(292, 42%, 14%);
+}
+
+@font-face {
+  font-family: "WorkSans-IVW";
+  src: url("./public/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
+  font-weight: 400 700;
+  font-style: "italic";
+}
+
+@font-face {
+  font-family: "WorkSans-IVW";
+  src: url("./public/assets/fonts/WorkSans-VariableFont_wght.ttf");
+  font-weight: 400 700;
+  font-style: "normal";
+}
+
+body{
+  background-color: var(--Light-pink);
+  background-image: url(./public/assets/images/background-pattern-desktop.svg);
+  background-repeat:no-repeat;
+  background-size: contain;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+.Cont-ppal{
+  background-color: var(--White);
+  width: 550px;
+  border-radius: 15px;
+  margin: 25px auto 0 auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+/* respuesta */
+details { 
+  background-color: var(--White);
+  width: 100%;
+  margin-bottom: 1rem;   
+  border-radius: 8px;  
+  border: 1px solid #d8e0e9;
+  color: var(--Grayish-purple);
+  position: relative;
+  font-size: 1rem;
+  line-height: 22px;
+}
+/* pregunta */
+details summary {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  list-style: none;
+  color: var(--Dark-purple);
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+}
+
+details summary:hover{
+  color: rgb(170, 40, 170);
+}
+
+/* icons plus and minus */
+details summary::before {
+  position: absolute;
+  content: url(./public/assets/images/icon-plus.svg);
+  font-size: 1.75rem;
+  top: 10px;
+  right: 16px;  
+}
+
+details[open] summary::before {
+  transition: 0.75ms;
+  content: url(./public/assets/images/icon-minus.svg); 
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
+
+details p {
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+  background: var(--White);
+  /* border-left: 2px solid #364f6b; */
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and ( max-width: 375px ) { 
+  
+  body{
+    background-image: url(./public/assets/images/background-pattern-mobile.svg);
+    top: 50px;
+  }
+
+  .Cont-ppal{
+    width: 325px;
+  }
+  
+  details{
+    line-height: 18px;
+  }
+
+  details summary{
+    width: 250px;
+    font-size: 14px;
+  }
+
+  details p{
+    font-size: 13px;
+    margin: 0px;
+    padding: 16px;
+  }
+}
+
+/* @media screen and ( min-width: 376px) and (max-width:1440px  ) { 
+  /* not implemented 
+  
+}  */

@@ -1,0 +1,99 @@
+Copyright 2019 Autores del proyecto Work Sans (https://github.com/weiweihuanghuang/Work-Sans)
+
+Este software de fuentes tiene la licencia SIL Open Font License, versión 1.1.
+Esta licencia se copia a continuación y también está disponible con preguntas frecuentes en:
+http://scripts.sil.org/OFL
+
+@font-face {
+  font-family: <un-nombre-de-fuente-remota>;
+  src: <origen> [,<origen>]*;
+  [font-weight: <peso>];
+  [font-style: <estilo>];
+}
+
+-------------------------------------------------- ---------
+LICENCIA DE FUENTE SIL OPEN Versión 1.1 - 26 de febrero de 2007
+-------------------------------------------------- ---------
+
+PREÁMBULO
+Los objetivos de Open Font License (OFL) son estimular en todo el mundo
+Desarrollo de proyectos de fuentes colaborativas, para apoyar la creación de fuentes.
+esfuerzos de las comunidades académicas y lingüísticas, y para proporcionar un acceso gratuito y
+Marco abierto en el que las fuentes pueden compartirse y mejorarse en colaboración.
+con otros.
+
+La OFL permite que las fuentes bajo licencia sean utilizadas, estudiadas, modificadas y
+redistribuidos libremente siempre que no se vendan por sí mismos. El
+Las fuentes, incluido cualquier trabajo derivado, se pueden agrupar, incrustar,
+redistribuido y/o vendido con cualquier software siempre que cualquier reserva
+Los nombres no se utilizan en obras derivadas. Las fuentes y derivados,
+sin embargo, no se puede publicar bajo ningún otro tipo de licencia. El
+El requisito de que las fuentes permanezcan bajo esta licencia no se aplica.
+a cualquier documento creado utilizando las fuentes o sus derivados.
+
+DEFINICIONES
+"Software de fuentes" se refiere al conjunto de archivos liberados por Copyright
+Titular(es) bajo esta licencia y claramente marcados como tales. Esto puede
+Incluye archivos fuente, scripts de compilación y documentación.
+
+"Nombre de fuente reservada" se refiere a cualquier nombre especificado como tal después del
+declaración(es) de derechos de autor.
+
+"Versión original" se refiere a la colección de componentes del software de fuentes como
+distribuido por el titular de los derechos de autor.
+
+"Versión modificada" se refiere a cualquier derivado realizado agregando, eliminando,
+o sustituir, total o parcialmente, cualquiera de los componentes del
+Versión original, cambiando formatos o trasladando el software de fuentes a un
+nuevo ambiente.
+
+"Autor" se refiere a cualquier diseñador, ingeniero, programador, técnico
+escritor u otra persona que contribuyó al software de fuentes.
+
+PERMISO Y CONDICIONES
+Por la presente se concede permiso, de forma gratuita, a cualquier persona que obtenga
+una copia del software de fuentes, para usar, estudiar, copiar, fusionar, incrustar, modificar,
+redistribuir y vender copias modificadas y sin modificar de la fuente
+Software, sujeto a las siguientes condiciones:
+
+1) Ni el software de fuentes ni ninguno de sus componentes individuales,
+en Versiones Original o Modificada, podrá venderse por sí solo.
+
+2) Se pueden incluir versiones originales o modificadas del software de fuentes,
+redistribuido y/o vendido con cualquier software, siempre que cada copia
+contiene el aviso de derechos de autor anterior y esta licencia. Estos pueden ser
+incluidos como archivos de texto independientes, encabezados legibles por humanos o
+en los campos apropiados de metadatos legibles por máquina dentro del texto o
+archivos binarios siempre que esos campos puedan ser vistos fácilmente por el usuario.
+
+3) Ninguna versión modificada del software de fuentes puede utilizar la fuente reservada
+Nombre(s) a menos que se otorgue permiso explícito por escrito por parte del correspondiente
+Titular de derechos de autor. Esta restricción solo se aplica al nombre de fuente principal como
+presentado a los usuarios.
+
+4) El nombre del titular de los derechos de autor o del autor de la fuente.
+El software no se utilizará para promover, respaldar o publicitar ningún
+Versión Modificada, excepto para reconocer la(s) contribución(es) del
+Titular(es) de los derechos de autor y el(los) Autor(es) o con su declaración escrita explícita
+permiso.
+
+5) El Software de fuentes, modificado o no modificado, en parte o en su totalidad,
+debe distribuirse íntegramente bajo esta licencia y no debe ser
+distribuido bajo cualquier otra licencia. El requisito de que las fuentes
+permanecer bajo esta licencia no se aplica a ningún documento creado
+utilizando el software de fuentes.
+
+TERMINACIÓN
+Esta licencia queda nula y sin efecto si cualquiera de las condiciones anteriores es
+no se cumplen.
+
+DESCARGO DE RESPONSABILIDAD
+EL SOFTWARE DE FUENTES SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO,
+EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A CUALQUIER GARANTÍA DE
+COMERCIABILIDAD, IDONEIDAD PARA UN FIN PARTICULAR Y NO INFRACCIÓN
+DE DERECHOS DE AUTOR, PATENTES, MARCAS U OTRO DERECHO. EN NINGÚN CASO EL
+EL TITULAR DE LOS DERECHOS DE AUTOR SERÁ RESPONSABLE DE CUALQUIER RECLAMACIÓN, DAÑO U OTRA RESPONSABILIDAD,
+INCLUYENDO CUALQUIER TIPO GENERAL, ESPECIAL, INDIRECTO, INCIDENTAL O CONSECUENTE.
+DAÑOS, YA SEA EN UNA ACCIÓN CONTRACTUAL, AGRAVIO O DE OTRA MANERA, QUE SURJAN
+DE, FUERA DEL USO O IMPOSIBILIDAD DE UTILIZAR EL SOFTWARE DE FUENTES O DE
+OTROS TRATAMIENTOS EN EL SOFTWARE FUENTE.
